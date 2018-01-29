@@ -1,4 +1,5 @@
 require_relative 'card'
+require_relative 'round'
 class Guess
   attr_reader :card, :response
   def initialize(user_guess, trivia_card)
@@ -21,4 +22,5 @@ class Guess
       "Incorrect!"
     end
   end
+
 end
